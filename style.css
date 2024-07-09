@@ -37,6 +37,8 @@ h1{
     width: 70%;
     display: flex;
     align-items: center;
+    list-style: none;
+    justify-content: flex-end;
 }
 .nav-list li{
     list-style: none;
@@ -293,7 +295,6 @@ h2{
         object-fit: contain;
     }
     .navbar {
-        position: sticky;
         flex-direction: column;
         transition: all 0.3s ease-out;
         height: 447px;   
@@ -309,7 +310,6 @@ h2{
     .v-class-resp {
         opacity: 0;
         height: 60px;
-        position: sticky;
     }
    .nav-list {
     flex-direction: column;
